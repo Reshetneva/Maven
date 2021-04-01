@@ -25,7 +25,7 @@ public class Test_3 {
 
         login();
 
-        // Клик на кнопку "Новая запись"
+        // Нажать на кнопку "Новая запись"
         driver.findElement(By.xpath("//*[@id=\"body\"]/div[2]/div/ul[2]/li[2]/a/span[2]")).click();
 
         // Ввод в поле "Заголовок"
@@ -34,7 +34,7 @@ public class Test_3 {
         // Ввод в поле "Сообщение"
         driver.findElement(By.xpath("//*[@id=\"message\"]")).sendKeys("Тестовое сообщение");
 
-        // Клик на кнопку "Организация"
+        // Нажать на кнопку "Организация"
         driver.findElement(By.xpath("//*[@id=\"rewrite\"]")).click();
 
        }
